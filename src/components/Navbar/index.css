@@ -1,0 +1,23 @@
+.navbar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: black;
+	z-index: 1000;
+}
+.nav-list {
+	list-style-type: none;
+	padding: 0.4rem;
+	margin-right: 6vw;
+	float: right;
+}
+.nav-link {
+	text-decoration: none;
+	color: #fff;
+	font-weight: 700;
+	padding: 1rem;
+}
+
+li {
+	display: inline;
+}

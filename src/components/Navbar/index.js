@@ -1,27 +1,33 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Button from "../Button";
 import "./index.css";
 
 function Navbar() {
 	return (
-		<nav>
-			<div className="nav-container">
-				<Link to="/">LOGO</Link>
-				<ul>
-					<li>
-						<Link to="/">Home</Link>
-					</li>
-					<li>
-						<Link to="/about">About</Link>
-					</li>
-					<li>
-						<Link to="/work">Work</Link>
-					</li>
-					<li>
-						<Link to="/contact">Contact me</Link>
-					</li>
-				</ul>
-			</div>
+		<nav className="navbar">
+			<ul className="nav-list">
+				<li>
+					<Link className="nav-link" to="/">
+						Home
+					</Link>
+				</li>
+				<li>
+					<Link className="nav-link" to="/about">
+						About
+					</Link>
+				</li>
+				<li>
+					<Link className="nav-link" to="/work">
+						Work
+					</Link>
+				</li>
+				<li>
+					<Link className="nav-link" to="/contact">
+						<Button>Contact Me</Button>
+					</Link>
+				</li>
+			</ul>
 		</nav>
 	);
 }

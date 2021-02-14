@@ -1,0 +1,52 @@
+.btn {
+	padding: 0.9rem;
+	padding-left: 1.2rem;
+	padding-right: 1.2rem;
+	font-weight: 700;
+	font-size: 15px;
+	border: 0 !important;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+.btn:hover {
+	transform: translateY(-5px);
+}
+
+.btn--primary {
+	background-color: blueviolet;
+	color: white;
+	box-shadow: 0px 0px 10px rgb(113, 34, 187);
+}
+
+.btn--primary:hover {
+	box-shadow: 0px 0px 25px rgb(113, 34, 187);
+}
+
+.btn-4 {
+	border: 1px solid;
+	overflow: hidden;
+	position: relative;
+}
+.btn-4 span {
+	z-index: 20;
+}
+
+.btn-4::after {
+	background: #fff;
+	content: "";
+	height: 155px;
+	left: -75px;
+	opacity: 0.3;
+	position: absolute;
+	top: -50px;
+	transform: rotate(35deg);
+	transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+	width: 50px;
+	z-index: 10;
+}
+
+.btn-4:hover::after {
+	left: 120%;
+	transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+}
