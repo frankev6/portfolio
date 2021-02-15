@@ -45,6 +45,11 @@ code {
 	font-weight: 600;
 }
 
+a {
+	text-decoration: none;
+	color: black;
+}
+
 .medium-text {
 	font-size: 3rem;
 	margin-bottom: 0;

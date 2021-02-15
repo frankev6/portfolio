@@ -10,9 +10,14 @@ function Projects() {
 	projects.forEach((p) => {
 		projectItems.push(
 			<section className="project-section">
-				<div className="project-image"></div>
-				<h1 className="medium-text project-title noselect">{p.title}</h1>
-				<p className="project-desc">{p.description}</p>
+				<Link to={"/" + p.link}>
+					<div
+						className="project-image"
+						style={{ background: p.accent_color }}
+					></div>
+					<h1 className="medium-text project-title noselect">{p.title}</h1>
+					<p className="project-desc">{p.description}</p>
+				</Link>
 			</section>
 		);
 	});

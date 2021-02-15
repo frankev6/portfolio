@@ -5,6 +5,7 @@ import "./index.css";
 import { ReactComponent as ArrowRight } from "../../assets/arrowright.svg";
 
 import { ReactComponent as SectionSeparator } from "../../assets/section_separator.svg";
+import Projects from "../Projects";
 function Home() {
 	var Text1 = "Software Developer";
 	var Text2 = "& Graphic Designer";
@@ -64,6 +65,7 @@ function Home() {
 				</Link>
 			</div>
 			<div className="draw-separator-top"></div>
+			<Projects />
 		</>
 	);
 }

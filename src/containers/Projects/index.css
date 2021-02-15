@@ -22,6 +22,10 @@
 	transform: scale(1.03);
 }
 
+.project-title {
+	text-decoration: none !important;
+}
+
 @media screen and (max-width: 1024px) {
 	.project-image {
 		width: 40rem;
