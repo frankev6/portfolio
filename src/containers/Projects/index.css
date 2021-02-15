@@ -1,0 +1,43 @@
+.project-container {
+	padding-top: 10rem;
+	background-color: white;
+	overflow-x: hidden;
+}
+
+.project-section {
+	margin-bottom: 10rem;
+	padding-left: 25vw;
+	cursor: pointer;
+	transition-duration: 500ms;
+}
+.project-image {
+	width: 60rem;
+	height: 40rem;
+	background-color: black;
+	border-radius: 1rem;
+	margin-bottom: 2rem;
+}
+
+.project-section:hover {
+	transform: scale(1.03);
+}
+
+@media screen and (max-width: 1024px) {
+	.project-image {
+		width: 40rem;
+		height: 20rem;
+	}
+}
+@media screen and (max-width: 630px) {
+	.project-image {
+		width: 25rem;
+		height: 12.5rem;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.project-image {
+		width: 15rem;
+		height: 7.5rem;
+	}
+}

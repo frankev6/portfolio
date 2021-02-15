@@ -1,9 +1,9 @@
-.container {
+.home-container {
 	padding-top: 20vh;
 	padding-left: 5vw;
-	align-content: center;
 	padding-bottom: 20vh;
 	background-color: black;
+	overflow-x: hidden;
 }
 
 .title-letter {
@@ -13,26 +13,13 @@
 	animation: 1000ms cubic-bezier(0.19, 1, 0.22, 1) letterJump;
 	cursor: pointer;
 }
-.noselect {
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-}
+
 .title-letter:hover {
 	transform: translateY(-35px);
 	color: blueviolet;
 	animation: 1000ms cubic-bezier(0.19, 1, 0.22, 1) letterJump;
 }
 
-.large-text {
-	font-size: 5rem;
-	margin-bottom: 0;
-	margin-top: 0;
-	font-weight: 600;
-}
 .title-letter-space {
 	min-width: 24px;
 }
@@ -62,26 +49,17 @@
 }
 
 @media screen and (max-width: 1024px) {
-	.large-text {
-		font-size: 4rem;
-	}
 	.title-letter-space {
 		min-width: 14px;
 	}
 }
 @media screen and (max-width: 630px) {
-	.large-text {
-		font-size: 3rem;
-	}
 	.title-letter-space {
 		min-width: 14px;
 	}
 }
 
 @media screen and (max-width: 480px) {
-	.large-text {
-		font-size: 2rem;
-	}
 	.title-letter-space {
 		min-width: 10px;
 	}

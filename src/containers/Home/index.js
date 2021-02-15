@@ -40,7 +40,7 @@ function Home() {
 
 	return (
 		<>
-			<div className="container">
+			<div className="home-container">
 				<h1 style={{ fontSize: 15, color: "white" }}>
 					<span className="noselect">Hi! I'm Frank Elejalde</span>
 				</h1>
@@ -63,14 +63,7 @@ function Home() {
 					</Button>
 				</Link>
 			</div>
-			<SectionSeparator
-				fill="black"
-				style={{
-					height: 47.4,
-					marginTop: -1,
-					transform: "rotate(180deg)",
-				}}
-			/>
+			<div className="draw-separator-top"></div>
 		</>
 	);
 }

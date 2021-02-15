@@ -9,13 +9,6 @@ function App() {
 			<Router>
 				<Navbar />
 				<Home />
-				<div
-					style={{
-						background: "white",
-						height: "40vh",
-						marginTop: -10,
-					}}
-				></div>
 				<Projects />
 			</Router>
 		</>
