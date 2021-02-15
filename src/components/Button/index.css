@@ -12,15 +12,19 @@
 .btn:hover {
 	transform: translateY(-5px);
 }
+.btn:focus {
+	outline: none;
+	box-shadow: none;
+}
 
 .btn--primary {
-	background-color: blueviolet;
+	background: linear-gradient(to right, blueviolet, blueviolet);
 	color: white;
-	box-shadow: 0px 0px 10px rgb(113, 34, 187);
 }
 
 .btn--primary:hover {
 	box-shadow: 0px 0px 25px rgb(113, 34, 187);
+	background: linear-gradient(to right, blueviolet, rgb(204, 42, 177));
 }
 
 .btn-4 {

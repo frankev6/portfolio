@@ -1,21 +1,14 @@
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router } from "react-router-dom";
 import Home from "./containers/Home";
+import Projects from "./containers/Projects";
 
-import { ReactComponent as SectionSeparator } from "./assets/section_separator.svg";
 function App() {
 	return (
 		<>
 			<Router>
 				<Navbar />
 				<Home />
-				<SectionSeparator
-					fill="black"
-					style={{
-						marginTop: -1,
-						transform: "rotate(180deg)",
-					}}
-				/>
 				<div
 					style={{
 						background: "white",
@@ -23,6 +16,7 @@ function App() {
 						marginTop: -10,
 					}}
 				></div>
+				<Projects />
 			</Router>
 		</>
 	);

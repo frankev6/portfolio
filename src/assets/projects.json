@@ -1,0 +1,58 @@
+[
+	{
+		"order": 0,
+		"title": "Envio Minutos",
+		"picture": "",
+		"link": "omo",
+		"category": "design",
+		"accent_color": "#999",
+		"technology": ["c", "a", "q"],
+		"short_description": "jhjhjh",
+		"description": "ehoo",
+		"github_link": "dfs",
+		"live_link": "obboi",
+		"timeline": "2019-2020"
+	},
+	{
+		"order": 1,
+		"title": "Kanvas",
+		"picture": "",
+		"link": "omo",
+		"category": "design",
+		"accent_color": "#999",
+		"technology": ["c", "a", "q"],
+		"short_description": "jhjhjh",
+		"description": "ehoo",
+		"github_link": "dfs",
+		"live_link": "obboi",
+		"timeline": "2019-2020"
+	},
+	{
+		"order": 2,
+		"title": "Typing Website",
+		"picture": "",
+		"link": "omo",
+		"category": "design",
+		"accent_color": "#999",
+		"technology": ["c", "a", "q"],
+		"short_description": "jhjhjh",
+		"description": "ehoo",
+		"github_link": "dfs",
+		"live_link": "obboi",
+		"timeline": "2019-2020"
+	},
+	{
+		"order": 3,
+		"title": "Puzzle Game",
+		"picture": "",
+		"link": "omo",
+		"category": "design",
+		"accent_color": "#999",
+		"technology": ["c", "a", "q"],
+		"short_description": "jhjhjh",
+		"description": "ehoo",
+		"github_link": "dfs",
+		"live_link": "obboi",
+		"timeline": "2019-2020"
+	}
+]

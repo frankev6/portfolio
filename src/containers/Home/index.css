@@ -7,27 +7,44 @@
 }
 
 .title-letter {
-	min-width: 24px;
 	display: inline-block;
 	color: white;
 	transition: all 1000ms cubic-bezier(0.19, 1, 0.22, 1);
 	animation: 1000ms cubic-bezier(0.19, 1, 0.22, 1) letterJump;
 	cursor: pointer;
 }
+.noselect {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
 .title-letter:hover {
 	transform: translateY(-35px);
 	color: blueviolet;
+	animation: 1000ms cubic-bezier(0.19, 1, 0.22, 1) letterJump;
+}
+
+.large-text {
+	font-size: 5rem;
+	margin-bottom: 0;
+	margin-top: 0;
+	font-weight: 600;
+}
+.title-letter-space {
+	min-width: 24px;
 }
 
 .title-letter:hover + .title-letter {
 	transform: translateY(-20px);
-	color: rgb(179, 128, 226);
+	color: rgb(211, 84, 205);
 }
 .title-letter:hover + .title-letter + .title-letter {
 	transform: translateY(-10px);
-	color: rgb(203, 190, 216);
+	color: rgb(212, 154, 210);
 }
-
 @keyframes letterJump {
 	0% {
 		transform: translateY(0);
@@ -41,5 +58,31 @@
 	}
 	100% {
 		transform: translateY(0);
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.large-text {
+		font-size: 4rem;
+	}
+	.title-letter-space {
+		min-width: 14px;
+	}
+}
+@media screen and (max-width: 630px) {
+	.large-text {
+		font-size: 3rem;
+	}
+	.title-letter-space {
+		min-width: 14px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.large-text {
+		font-size: 2rem;
+	}
+	.title-letter-space {
+		min-width: 10px;
 	}
 }
