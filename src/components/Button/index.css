@@ -23,7 +23,6 @@
 }
 
 .btn--primary:hover {
-	box-shadow: 0px 0px 25px rgb(113, 34, 187);
 	background: linear-gradient(to right, blueviolet, rgb(204, 42, 177));
 }
 
