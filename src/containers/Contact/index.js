@@ -22,10 +22,12 @@ function Contact() {
 						type="text"
 						name="message"
 						placeholder="Write something..."
-						style={{ height: 200, width: "49vh" }}
+						style={{ height: 200, width: 425 }}
 					/>
 				</div>
-				<Button>Send Message</Button>
+				<Button style={{ margin: "0 auto", display: "block" }}>
+					Send Message
+				</Button>
 			</div>
 			<div className="contact-divider" />
 			<div className="info-container">

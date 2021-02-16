@@ -64,10 +64,20 @@ a {
 	font-weight: 400;
 }
 
-input[type="text"] {
-	width: 50vh;
+textarea,
+input {
+	-webkit-appearance: none;
+	outline: none;
+	font-family: "Courier New", Courier, monospace;
+	border-radius: 0.3rem;
+	border-width: 0.13rem;
+	width: 450px;
+	border-color: black;
 	padding: 10px 10px;
+}
 
+input[type="text"] {
+	box-shadow: none;
 	box-sizing: border-box;
 }
 

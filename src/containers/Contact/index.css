@@ -10,12 +10,12 @@
 	float: right;
 	border-top-right-radius: 1rem;
 	border-bottom-right-radius: 1rem;
-	padding: 2rem;
+	padding: 3rem;
 }
 .message-container {
-	padding: 2rem;
+	padding: 3rem;
 	justify-content: center;
-	border-width: 0.15rem !important;
+	border-width: 0.13rem !important;
 	border-color: black;
 	border: solid;
 	border-top-left-radius: 1rem;
@@ -24,12 +24,15 @@
 }
 
 .contact-input {
-	margin: 10px;
+	margin: 0 auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	display: block;
 }
 
 .contact-divider {
 	margin-right: -5px;
-	border-width: 0.15rem !important;
+	border-width: 0.13rem !important;
 	border: solid;
 	border-color: black;
 	border-left: none;
