@@ -12,6 +12,7 @@
 	box-shadow: none;
 	overflow: hidden;
 	position: relative;
+	min-width: 130px;
 }
 
 .btn:focus {

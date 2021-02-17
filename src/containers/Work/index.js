@@ -4,6 +4,7 @@ import { Link, useParams } from "react-router-dom";
 import "./index.css";
 import projects from "../../assets/projects.json";
 import Projects from "../Projects";
+import WorkNavbar from "../../components/WorkNavbar";
 
 function Work() {
 	const { id } = useParams();
@@ -53,13 +54,22 @@ function Work() {
 
 		return (
 			<div>
+				<WorkNavbar
+					title={currP.title}
+					color={currP.accent_color}
+					live_link={currP.live_link}
+					source_link={currP.source_link}
+					time={currP.time_taken}
+				/>
 				<div
 					className="work-hero"
 					style={{ backgroundColor: currP.accent_color }}
 				>
 					<div className="work-title">
 						<h1 className="large-text">{currP.title}</h1>
+						<h3>{currP.time_taken}</h3>
 						<p className="work-description small-text">{currP.description}</p>
+
 						<div className="work-title-buttons">
 							<a href="#" style={{ marginRight: 40 }}>
 								<Button type="secondary" style={{ color: currP.accent_color }}>
@@ -67,7 +77,7 @@ function Work() {
 								</Button>
 							</a>
 							<a href="#">
-								<Button type="secondary-outline">Github Code</Button>
+								<Button type="secondary-outline">Source Code</Button>
 							</a>
 						</div>
 					</div>

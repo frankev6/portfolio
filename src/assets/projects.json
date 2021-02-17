@@ -7,9 +7,9 @@
 		"accent_color": "#335cde",
 		"technology": ["c", "a", "q"],
 		"description": "ehoo",
-		"github_link": "dfs",
+		"source_link": "dfs",
 		"live_link": "obboi",
-		"timeline": "2019-2020",
+		"time_taken": "2019-2020",
 		"sections": [
 			{
 				"title": "cool title",
@@ -39,9 +39,9 @@
 		"accent_color": "#33a2de",
 		"technology": ["c", "a", "q"],
 		"description": "ehoo",
-		"github_link": "dfs",
+		"source_link": "dfs",
 		"live_link": "obboi",
-		"timeline": "2019-2020",
+		"time_taken": "2019-2020",
 		"sections": [
 			{
 				"title": "cool title",
@@ -62,12 +62,12 @@
 		"title": "Typing Website",
 		"picture": "",
 		"category": "design",
-		"accent_color": "#999",
+		"accent_color": "#606090",
 		"technology": ["c", "a", "q"],
 		"description": "ehoo",
-		"github_link": "dfs",
+		"source_link": "dfs",
 		"live_link": "obboi",
-		"timeline": "2019-2020",
+		"time_taken": "2019-2020",
 		"sections": [
 			{
 				"title": "cool title",
@@ -91,9 +91,9 @@
 		"accent_color": "#999",
 		"technology": ["c", "a", "q"],
 		"description": "ehoo",
-		"github_link": "dfs",
+		"source_link ": "dfs",
 		"live_link": "obboi",
-		"timeline": "2019-2020",
+		"time_taken": "2019-2020",
 		"sections": [
 			{
 				"title": "cool title",

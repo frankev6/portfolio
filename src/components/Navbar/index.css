@@ -7,9 +7,10 @@
 }
 .nav-list {
 	list-style-type: none;
-	padding: 0.4rem;
 	margin-right: 6vw;
 	float: right;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 .nav-link {
 	text-decoration: none;
