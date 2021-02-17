@@ -9,8 +9,8 @@ function Projects() {
 
 	projects.forEach((p) => {
 		projectItems.push(
-			<section className="project-section">
-				<Link to={"/" + p.link}>
+			<div className="project-item">
+				<Link to={"/work/" + p.order}>
 					<div
 						className="project-image"
 						style={{ background: p.accent_color }}
@@ -18,10 +18,10 @@ function Projects() {
 					<h1 className="medium-text project-title noselect">{p.title}</h1>
 					<p className="project-desc">{p.description}</p>
 				</Link>
-			</section>
+			</div>
 		);
 	});
 
-	return <div className="project-container">{projectItems}</div>;
+	return <section className="project-container">{projectItems}</section>;
 }
 export default Projects;

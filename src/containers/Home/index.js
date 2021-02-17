@@ -3,8 +3,6 @@ import Button from "../../components/Button";
 import { Link } from "react-router-dom";
 import "./index.css";
 import { ReactComponent as ArrowRight } from "../../assets/arrowright.svg";
-
-import { ReactComponent as SectionSeparator } from "../../assets/section_separator.svg";
 import Projects from "../Projects";
 function Home() {
 	var Text1 = "Software Developer";
@@ -49,6 +47,7 @@ function Home() {
 				<h1 className="large-text">{arr2}</h1>
 				<Link to="/work">
 					<Button
+						type="secondary"
 						style={{
 							marginTop: 150,
 							padding: 20,
@@ -59,12 +58,14 @@ function Home() {
 							<span style={{ marginBottom: 10, fontSize: 16 }}>
 								View my Work
 							</span>
-							<ArrowRight fill="white" width="9" style={{ marginLeft: 20 }} />
+							<ArrowRight fill="black" width="9" style={{ marginLeft: 20 }} />
 						</div>
 					</Button>
 				</Link>
 			</div>
-			<div className="draw-separator-top"></div>
+			<div style={{ width: "100%", overflowX: "hidden", marginTop: -60 }}>
+				<div className="draw-separator-top"></div>
+			</div>
 			<Projects />
 		</>
 	);

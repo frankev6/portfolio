@@ -13,20 +13,22 @@ code {
 }
 
 .draw-separator-top {
-	height: 47.4px;
-	background-image: url("./assets/section_separator.svg");
-	transform: rotate(180deg);
-	margin-top: -5px;
+	width: 320%;
+	height: 60px;
+	background-image: url("./assets/wave.svg");
 	background-repeat: repeat-x;
 	background-position: bottom center;
+	animation: waves linear 30s infinite;
+	overflow-x: hidden !important;
 }
 
-.draw-separator-bottom {
-	height: 47.4px;
-	background-image: url("./assets/section_separator.svg");
-	margin-top: -5px;
-	background-repeat: repeat-x;
-	background-position: bottom center;
+@keyframes waves {
+	0% {
+		transform: translateX(0%) rotate(180deg);
+	}
+	100% {
+		transform: translateX(-60%) rotate(180deg);
+	}
 }
 
 .noselect {
@@ -70,10 +72,11 @@ input {
 	outline: none;
 	font-family: "Courier New", Courier, monospace;
 	border-radius: 0.3rem;
-	border-width: 0.13rem;
+	border-width: 0.15rem;
 	width: 450px;
 	border-color: black;
 	padding: 10px 10px;
+	background-color: #efefef;
 }
 
 input[type="text"] {

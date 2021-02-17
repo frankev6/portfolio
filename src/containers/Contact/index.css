@@ -1,7 +1,7 @@
 .contact-section {
-	margin: 10rem;
+	margin-top: 10rem;
 	display: flex;
-	justify-self: center;
+	justify-content: center;
 }
 
 .info-container {
@@ -15,7 +15,7 @@
 .message-container {
 	padding: 3rem;
 	justify-content: center;
-	border-width: 0.13rem !important;
+	border-width: 0.15rem !important;
 	border-color: black;
 	border: solid;
 	border-top-left-radius: 1rem;
@@ -30,12 +30,50 @@
 	display: block;
 }
 
-.contact-divider {
-	margin-right: -5px;
-	border-width: 0.13rem !important;
+.contact-divider-parent {
+	margin-right: -4px;
 	border: solid;
 	border-color: black;
 	border-left: none;
-	width: 35px;
-	background-image: url("../../assets/section_separator2.svg");
+	overflow: hidden;
+	border-top-width: 0.15rem;
+	border-bottom-width: 0.15rem;
+}
+
+.contact-divider {
+	width: 47.4px;
+	height: 350%;
+	animation: side-waves linear 10s infinite;
+	background-image: url("../../assets/wave-side.svg");
+	background-repeat: repeat-y;
+}
+
+.contact-link-container {
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.contact-link {
+	width: 60px;
+	height: 60px;
+	background-size: cover;
+}
+.github {
+	background-image: url("../../assets/github.svg");
+}
+.behance {
+	background-image: url("../../assets/behance.svg");
+}
+.linkedin {
+	background-image: url("../../assets/linkedin.svg");
+}
+
+@keyframes side-waves {
+	0% {
+		transform: translateY(0);
+	}
+	100% {
+		transform: translateY(-60%);
+	}
 }

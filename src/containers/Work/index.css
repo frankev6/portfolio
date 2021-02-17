@@ -1,0 +1,36 @@
+.work-hero {
+	width: 100%;
+	height: 90vh;
+}
+
+.work-title {
+	margin: auto;
+	width: 50%;
+	padding-top: 15rem;
+	color: white;
+	text-align: center;
+}
+
+.work-description {
+	color: white;
+}
+
+.work-title-buttons {
+	margin: 50px auto;
+	width: 50%;
+}
+
+.work-item {
+	margin: 120px auto;
+	width: fit-content;
+}
+.work-item-info {
+	padding: 40px;
+}
+
+.work-item-image {
+	width: 500px;
+	height: 300px;
+	border-radius: 10px;
+	background-color: black;
+}

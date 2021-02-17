@@ -1,13 +1,13 @@
 .project-container {
-	padding-top: 10rem;
+	padding-top: 5rem;
 	background-color: white;
 	overflow-x: hidden;
 }
 
-.project-section {
-	margin-bottom: 10rem;
-	padding-left: 25vw;
+.project-item {
+	margin: 120px auto;
 	cursor: pointer;
+	width: fit-content;
 	transition-duration: 500ms;
 }
 .project-image {
@@ -18,7 +18,7 @@
 	margin-bottom: 2rem;
 }
 
-.project-section:hover {
+.project-item:hover {
 	transform: scale(1.03);
 }
 

@@ -24,7 +24,7 @@ function Navbar() {
 				</li>
 				<li>
 					<Link className="nav-link" to="/contact">
-						<Button>Contact Me</Button>
+						<Button type="secondary">Contact Me</Button>
 					</Link>
 				</li>
 			</ul>

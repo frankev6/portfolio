@@ -1,7 +1,7 @@
 .home-container {
 	padding-top: 20vh;
 	padding-left: 5vw;
-	padding-bottom: 20vh;
+	padding-bottom: 25vh;
 	background-color: black;
 	overflow-x: hidden;
 }
@@ -16,7 +16,6 @@
 
 .title-letter:hover {
 	transform: translateY(-35px);
-	color: blueviolet;
 	animation: 1000ms cubic-bezier(0.19, 1, 0.22, 1) letterJump;
 }
 
@@ -26,21 +25,15 @@
 
 .title-letter:hover + .title-letter {
 	transform: translateY(-20px);
-	color: rgb(211, 84, 205);
 }
 .title-letter:hover + .title-letter + .title-letter {
 	transform: translateY(-10px);
-	color: rgb(212, 154, 210);
 }
 @keyframes letterJump {
 	0% {
 		transform: translateY(0);
 	}
-	20% {
-		color: rgb(204, 42, 177);
-	}
 	50% {
-		color: blueviolet;
 		transform: translateY(-25px);
 	}
 	100% {

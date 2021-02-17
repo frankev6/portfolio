@@ -3,52 +3,110 @@
 		"order": 0,
 		"title": "Envio Minutos",
 		"picture": "",
-		"link": "omo",
 		"category": "design",
 		"accent_color": "#335cde",
 		"technology": ["c", "a", "q"],
 		"description": "ehoo",
 		"github_link": "dfs",
 		"live_link": "obboi",
-		"timeline": "2019-2020"
+		"timeline": "2019-2020",
+		"sections": [
+			{
+				"title": "cool title",
+				"description": "hehe",
+				"image": "dd",
+				"image_position": "top"
+			},
+			{
+				"title": "cool title 2",
+				"description": "hoho",
+				"image": "sdd",
+				"image_position": "right"
+			},
+			{
+				"title": "cool title 2",
+				"description": "hoho",
+				"image": "ssdd",
+				"image_position": "left"
+			}
+		]
 	},
 	{
 		"order": 1,
 		"title": "Kanvas",
 		"picture": "",
-		"link": "omo",
 		"category": "design",
 		"accent_color": "#33a2de",
 		"technology": ["c", "a", "q"],
 		"description": "ehoo",
 		"github_link": "dfs",
 		"live_link": "obboi",
-		"timeline": "2019-2020"
+		"timeline": "2019-2020",
+		"sections": [
+			{
+				"title": "cool title",
+				"description": "hehe",
+				"image": "s",
+				"image_position": "top"
+			},
+			{
+				"title": "cool title 2",
+				"description": "hoho",
+				"image": "",
+				"image_position": "top"
+			}
+		]
 	},
 	{
 		"order": 2,
 		"title": "Typing Website",
 		"picture": "",
-		"link": "omo",
 		"category": "design",
 		"accent_color": "#999",
 		"technology": ["c", "a", "q"],
 		"description": "ehoo",
 		"github_link": "dfs",
 		"live_link": "obboi",
-		"timeline": "2019-2020"
+		"timeline": "2019-2020",
+		"sections": [
+			{
+				"title": "cool title",
+				"description": "hehe",
+				"image": "",
+				"image_position": "top"
+			},
+			{
+				"title": "cool title 2",
+				"description": "hoho",
+				"image": "",
+				"image_position": "top"
+			}
+		]
 	},
 	{
 		"order": 3,
 		"title": "Puzzle Game",
 		"picture": "",
-		"link": "omo",
 		"category": "design",
 		"accent_color": "#999",
 		"technology": ["c", "a", "q"],
 		"description": "ehoo",
 		"github_link": "dfs",
 		"live_link": "obboi",
-		"timeline": "2019-2020"
+		"timeline": "2019-2020",
+		"sections": [
+			{
+				"title": "cool title",
+				"description": "hehe",
+				"image": "",
+				"image_position": "top"
+			},
+			{
+				"title": "cool title 2",
+				"description": "hoho",
+				"image": "",
+				"image_position": "top"
+			}
+		]
 	}
 ]
