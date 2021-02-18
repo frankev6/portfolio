@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Button from "../Button";
 import "./index.css";
 
-function WorkNavbar({ color, title, time, live_link, source_link }) {
+function WorkNavbar({ currP }) {
 	const [navbar, showNavbar] = useState(false);
 
 	useEffect(() => {
@@ -15,16 +15,16 @@ function WorkNavbar({ color, title, time, live_link, source_link }) {
 	return (
 		<nav
 			className={"work-navbar " + (navbar ? "active" : "")}
-			style={{ backgroundColor: color }}
+			style={{ backgroundColor: currP.accent_color }}
 		>
 			<div className="work-nav-list">
 				<div style={{ display: "flex", color: "white", marginTop: -12 }}>
-					<h1 style={{ marginRight: 15 }}>{title}</h1>
-					<h2>{time}</h2>
+					<h1 style={{ marginRight: 15 }}>{currP.title}</h1>
+					<h2>{currP.time_taken}</h2>
 				</div>
 				<div>
 					<a href="#" style={{ marginRight: 15 }}>
-						<Button type="secondary" style={{ color: color }}>
+						<Button type="secondary" style={{ color: currP.accent_color }}>
 							Live Project
 						</Button>
 					</a>

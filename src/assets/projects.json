@@ -14,20 +14,26 @@
 			{
 				"title": "cool title",
 				"description": "hehe",
+				"background": "black",
+				"foreground": "white",
 				"image": "dd",
 				"image_position": "top"
 			},
 			{
 				"title": "cool title 2",
 				"description": "hoho",
+				"background": "black",
+				"foreground": "white",
 				"image": "sdd",
-				"image_position": "right"
+				"image_position": "top"
 			},
 			{
 				"title": "cool title 2",
 				"description": "hoho",
+				"background": "black",
+				"foreground": "white",
 				"image": "ssdd",
-				"image_position": "left"
+				"image_position": "top"
 			}
 		]
 	},
@@ -46,12 +52,16 @@
 			{
 				"title": "cool title",
 				"description": "hehe",
+				"background": "black",
+				"foreground": "white",
 				"image": "s",
 				"image_position": "top"
 			},
 			{
 				"title": "cool title 2",
 				"description": "hoho",
+				"background": "black",
+				"foreground": "white",
 				"image": "",
 				"image_position": "top"
 			}
@@ -72,12 +82,16 @@
 			{
 				"title": "cool title",
 				"description": "hehe",
+				"background": "black",
+				"foreground": "white",
 				"image": "",
 				"image_position": "top"
 			},
 			{
 				"title": "cool title 2",
 				"description": "hoho",
+				"background": "black",
+				"foreground": "white",
 				"image": "",
 				"image_position": "top"
 			}
@@ -98,12 +112,16 @@
 			{
 				"title": "cool title",
 				"description": "hehe",
+				"background": "black",
+				"foreground": "white",
 				"image": "",
 				"image_position": "top"
 			},
 			{
 				"title": "cool title 2",
 				"description": "hoho",
+				"background": "black",
+				"foreground": "white",
 				"image": "",
 				"image_position": "top"
 			}
