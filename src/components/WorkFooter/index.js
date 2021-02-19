@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "../../components/Button";
-import { Link } from "react-router-dom";
 import "./index.css";
+import DelayLink from "../DelayLink";
 import { ReactComponent as ArrowRight } from "../../assets/arrowright.svg";
 function WorkFooter({ next_project_link }) {
 	return (
@@ -10,19 +10,21 @@ function WorkFooter({ next_project_link }) {
 				<h2 className="medium-text noselect" style={{ textAlign: "center" }}>
 					Like what you see?
 				</h2>
-				<Button
-					type="primary"
-					style={{
-						display: "block",
-						margin: "40px auto",
-						padding: "20px 40px 20px 40px",
-						fontSize: 20,
-					}}
-				>
-					Contact me
-				</Button>
+				<DelayLink to="/contact">
+					<Button
+						type="primary"
+						style={{
+							display: "block",
+							margin: "40px auto",
+							padding: "20px 40px 20px 40px",
+							fontSize: 20,
+						}}
+					>
+						Contact me
+					</Button>
+				</DelayLink>
 			</div>
-			<Link to={"/work/" + next_project_link}>
+			<DelayLink to={"/work/" + next_project_link}>
 				<div className="work-footer-btn">
 					<div
 						style={{
@@ -47,7 +49,7 @@ function WorkFooter({ next_project_link }) {
 						</div>
 					</div>
 				</div>
-			</Link>
+			</DelayLink>
 		</div>
 	);
 }

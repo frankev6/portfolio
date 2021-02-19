@@ -12,12 +12,12 @@
 		"time_taken": "2019-2020",
 		"sections": [
 			{
-				"title": "cool title",
-				"description": "hehe",
+				"title": "pepe title",
+				"description": "hesdasddhe",
 				"background": "black",
 				"foreground": "white",
 				"image": "dd",
-				"image_position": "top"
+				"image_position": "right"
 			},
 			{
 				"title": "cool title 2",
@@ -110,8 +110,8 @@
 		"time_taken": "2019-2020",
 		"sections": [
 			{
-				"title": "cool title",
-				"description": "hehe",
+				"title": "",
+				"description": "",
 				"background": "black",
 				"foreground": "white",
 				"image": "",

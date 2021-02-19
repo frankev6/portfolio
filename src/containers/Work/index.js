@@ -21,7 +21,7 @@ function Work() {
 		);
 	} else {
 		return (
-			<div>
+			<div key={currP.order}>
 				<WorkNavbar currP={currP} />
 				<div
 					className="work-hero"

@@ -16,6 +16,7 @@ function Home() {
 		var spaceClass = Text1[i] == " " ? "title-letter-space" : "";
 		arr1.push(
 			<span
+				key={arr1.length + arr2.length}
 				className={"noselect title-letter" + spaceClass}
 				style={{ animationDelay: delay.toString() + "s" }}
 			>
@@ -29,6 +30,7 @@ function Home() {
 		var spaceClass = Text2[i] == " " ? "title-letter-space" : "";
 		arr2.push(
 			<span
+				key={arr1.length + arr2.length}
 				className={"noselect title-letter " + spaceClass}
 				style={{ animationDelay: delay.toString() + "s" }}
 			>
