@@ -2,8 +2,16 @@
 	position: fixed;
 	top: 0;
 	width: 100%;
-	background-color: black;
-	z-index: 1000;
+	background-color: rgba(0, 0, 0, 0);
+	transition: all 400ms linear;
+	z-index: 10000;
+}
+
+.navbar.dark {
+	background-color: rgba(0, 0, 0, 1);
+}
+.navbar.light .nav-link {
+	color: rgba(0, 0, 0, 1);
 }
 .nav-list {
 	list-style-type: none;
@@ -14,6 +22,7 @@
 }
 .nav-link {
 	text-decoration: none;
+	transition: all 200ms linear;
 	color: #fff;
 	font-weight: 700;
 	padding: 1rem;

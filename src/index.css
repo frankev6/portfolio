@@ -18,7 +18,7 @@ code {
 	background-image: url("./assets/wave.svg");
 	background-repeat: repeat-x;
 	background-position: bottom center;
-	animation: waves linear 30s infinite;
+	animation: waves linear 90s infinite;
 	overflow-x: hidden !important;
 }
 
@@ -101,5 +101,13 @@ input[type="text"] {
 @media screen and (max-width: 480px) {
 	.large-text {
 		font-size: 2rem;
+	}
+}
+@keyframes fadein {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
 	}
 }

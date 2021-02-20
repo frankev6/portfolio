@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import Button from "../../components/Button";
-import { Link } from "react-router-dom";
+import DelayLink from "../../components/DelayLink";
 import "./index.css";
 import { ReactComponent as ArrowRight } from "../../assets/arrowright.svg";
 import Projects from "../Projects";
 function Home() {
+	const [InTransition, setTransition] = useState(false);
 	var Text1 = "Software Developer";
 	var Text2 = "& Graphic Designer";
 	var arr1 = [];
@@ -41,13 +42,17 @@ function Home() {
 
 	return (
 		<>
-			<div className="home-container">
+			<div className={"home-container " + (InTransition ? "transition" : "")}>
 				<h1 style={{ fontSize: 15, color: "white" }}>
 					<span className="noselect">Hi! I'm Frank Elejalde</span>
 				</h1>
 				<h1 className="large-text">{arr1}</h1>
 				<h1 className="large-text">{arr2}</h1>
-				<Link to="/work">
+				<DelayLink
+					to="/work"
+					delay={1000}
+					onDelayStart={() => setTransition(true)}
+				>
 					<Button
 						type="secondary"
 						style={{
@@ -60,10 +65,10 @@ function Home() {
 							<span style={{ marginBottom: 10, fontSize: 16 }}>
 								View my Work
 							</span>
-							<ArrowRight fill="black" width="9" style={{ marginLeft: 20 }} />
+							<ArrowRight width="9" style={{ marginLeft: 20 }} />
 						</div>
 					</Button>
-				</Link>
+				</DelayLink>
 			</div>
 			<div style={{ width: "100%", overflowX: "hidden", marginTop: -60 }}>
 				<div className="draw-separator-top"></div>

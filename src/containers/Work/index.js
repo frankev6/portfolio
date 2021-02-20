@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Button from "../../components/Button";
 import { Link, useParams } from "react-router-dom";
 import "./index.css";
@@ -10,7 +10,7 @@ import WorkSections from "../../components/WorkSections";
 
 function Work() {
 	const { id } = useParams();
-
+	const [InTransition, setInTransition] = useState(false);
 	var currP = projects[id];
 
 	if (id == null) {
@@ -20,6 +20,8 @@ function Work() {
 			</div>
 		);
 	} else {
+		const image = require(`../../assets/images/${currP.picture}`).default;
+
 		return (
 			<div key={currP.order}>
 				<WorkNavbar currP={currP} />
@@ -45,12 +47,24 @@ function Work() {
 							</a>
 						</div>
 					</div>
+					<img src={image}></img>
 				</div>
 				<div style={{ width: "100%", overflowX: "hidden", marginTop: -60 }}>
 					<div className="draw-separator-top"></div>
 				</div>
-				<WorkSections currP={currP} />
+				<div
+					className="work-transition-item"
+					style={{ opacity: InTransition ? 0 : 1 }}
+				>
+					<WorkSections currP={currP} />
+				</div>
 				<WorkFooter
+					InTransition={InTransition}
+					setInTransition={setInTransition}
+					accent_color={
+						projects[currP.order < projects.length - 1 ? currP.order + 1 : 0]
+							.accent_color
+					}
 					next_project_link={
 						currP.order < projects.length - 1 ? currP.order + 1 : 0
 					}

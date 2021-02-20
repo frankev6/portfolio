@@ -10,10 +10,14 @@ function WorkNavbar({ currP }) {
 			showNavbar(window.scrollY >= 500 ? true : false);
 		};
 		window.addEventListener("scroll", navbarBackground);
+		return () => {
+			document.removeEventListener("scroll", navbarBackground);
+		};
 	}, []);
 
 	return (
 		<nav
+			key="worknav"
 			className={"work-navbar " + (navbar ? "active" : "")}
 			style={{ backgroundColor: currP.accent_color }}
 		>
