@@ -1,0 +1,12 @@
+.work-tech-item {
+	margin-right: 3rem;
+	margin-left: 3rem;
+}
+.work-tech-title {
+	font-weight: 600;
+}
+
+.work-item-image.full-width {
+	width: 100%;
+	height: 100%;
+}

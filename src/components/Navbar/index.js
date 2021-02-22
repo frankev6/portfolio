@@ -1,21 +1,17 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useContext } from "react";
 import { Link, useLocation } from "react-router-dom";
 import Button from "../Button";
 import "./index.css";
+import { ScrollContext } from "../../containers/AppContext";
 
 function Navbar() {
 	const { pathname } = useLocation();
 	const [navbar, showNavbar] = useState(false);
+	const scrollY = useContext(ScrollContext);
+
 	useEffect(() => {
-		window.scrollTo(0, 0);
-		const navbarBackground = () => {
-			showNavbar(window.scrollY >= 200 ? true : false);
-		};
-		window.addEventListener("scroll", navbarBackground);
-		return () => {
-			document.removeEventListener("scroll", navbarBackground);
-		};
-	}, [pathname]);
+		showNavbar(scrollY >= 200 ? true : false);
+	}, [scrollY]);
 
 	return (
 		<nav

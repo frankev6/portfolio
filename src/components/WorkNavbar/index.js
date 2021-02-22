@@ -1,19 +1,15 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useContext, useEffect } from "react";
 import Button from "../Button";
 import "./index.css";
+import { ScrollContext } from "../../containers/AppContext";
 
 function WorkNavbar({ currP }) {
 	const [navbar, showNavbar] = useState(false);
 
+	const scrollY = useContext(ScrollContext);
 	useEffect(() => {
-		const navbarBackground = () => {
-			showNavbar(window.scrollY >= 500 ? true : false);
-		};
-		window.addEventListener("scroll", navbarBackground);
-		return () => {
-			document.removeEventListener("scroll", navbarBackground);
-		};
-	}, []);
+		showNavbar(scrollY >= 500 ? true : false);
+	}, [scrollY]);
 
 	return (
 		<nav

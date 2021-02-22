@@ -21,6 +21,8 @@
 	overflow: hidden;
 	display: flex;
 	border-radius: 15px;
+	border: solid;
+	border-width: 1px;
 }
 
 .project-image img {

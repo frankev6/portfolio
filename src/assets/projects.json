@@ -6,131 +6,169 @@
 		"picture": "enviominutos_phones_small.jpg",
 		"category": "design",
 		"accent_color": "#459ff5",
-		"technologies": ["c", "a", "q"],
-		"platforms": ["c", "a", "q"],
-		"deliverables": ["c", "a", "q"],
-		"roles": ["c", "a", "q"],
+		"technologies": ["Xamarin", "REST", "C#"],
+		"platforms": ["Android", "iOS"],
+		"roles": [
+			"Programming",
+			"Logo/Identity Design",
+			"IU UX Design",
+			"Interaction Design"
+		],
+		"deliverables": ["Mobile App", "Logo", "Design", ""],
 		"description": "ehoo",
 		"source_link": "dfs",
 		"live_link": "obboi",
 		"time_taken": "2019-2020",
 		"sections": [
 			{
-				"title": "pepe title",
-				"description": "hesdasddhe",
-				"background": "black",
-				"foreground": "white",
-				"image": "dd",
+				"offset": 0,
+				"title": "Mobile Top-ups <span style='color:#459ff5'>Worldwide<span>",
+				"description": "Spotify is the #1 music service in the world with over 220 million subscribers. That consumer success, however, needed to be matched with powerful storytelling to become equally compelling to the advertising world. We worked with Spotify to create an interactive experience to demonstrate how music interacts with a day in the life of a millenial listener.",
+				"image": "",
 				"image_position": "right"
 			},
 			{
-				"title": "cool title 2",
+				"offset": 0,
+				"title": "Product Definition",
+				"description": "",
+				"image": "",
+				"image_position": ""
+			},
+			{
+				"offset": 700,
+				"title": "",
 				"description": "hoho",
-				"background": "black",
-				"foreground": "white",
-				"image": "sdd",
+				"image": "enviominutos_fullwidth.jpg",
 				"image_position": "top"
 			},
 			{
-				"title": "cool title 2",
-				"description": "hoho",
-				"background": "black",
-				"foreground": "white",
-				"image": "ssdd",
+				"offset": 0,
+				"title": "Visual Language",
+				"description": "We studied Spotify’s brand guidelines and worked with their existing palette to create an experience that both respects guidelines and pushes creative boundaries. We used gradients that evolved from core Spotify brand colors as well as decorative graphical elements that mirror the exuberance and vibrancy in millennials’ lifestyles.",
+				"image": "enviominutos_palette.jpg",
+				"image_position": "right"
+			},
+			{
+				"offset": 400,
+				"title": "Successful Launch",
+				"description": "The app was released near the end of 2020. It is currently available for download in both the App Store and Google Play",
+				"image": "enviominutos_small.jpg",
 				"image_position": "top"
 			}
 		]
 	},
 	{
 		"order": 1,
-		"title": "Kanvas",
-		"thumbnail": "enviominutos_small.jpg",
-		"picture": "enviominutos_phones_small.jpg",
+		"title": "okanban",
+		"thumbnail": "okanban_front1.jpg",
+		"picture": "okanban_front.png",
 		"category": "design",
-		"accent_color": "#33a2de",
-		"technology": ["c", "a", "q"],
+		"accent_color": "#7442c8",
+		"technologies": [".NET 5", "WebSockets", "C#", "MS SQL", "REST"],
+		"platforms": ["Web", "Android", "iOS"],
+		"roles": [
+			"Programming",
+			"Logo/Identity Design",
+			"IU UX Design",
+			"Interaction Design"
+		],
+		"deliverables": ["Mobile App", "Logo", "Design", ""],
 		"description": "ehoo",
 		"source_link": "dfs",
 		"live_link": "obboi",
 		"time_taken": "2019-2020",
 		"sections": [
 			{
-				"title": "cool title",
-				"description": "hehe",
-				"background": "black",
-				"foreground": "white",
-				"image": "s",
+				"offset": 0,
+				"title": "Mobile Top-ups <span style='color:#459ff5'>Worldwide<span>",
+				"description": "Spotify is the #1 music service in the world with over 220 million subscribers. That consumer success, however, needed to be matched with powerful storytelling to become equally compelling to the advertising world. We worked with Spotify to create an interactive experience to demonstrate how music interacts with a day in the life of a millenial listener.",
+				"image": "",
+				"image_position": "right"
+			},
+			{
+				"offset": 0,
+				"title": "Product Definition",
+				"description": "",
+				"image": "",
+				"image_position": ""
+			},
+			{
+				"offset": 0,
+				"title": "",
+				"description": "hoho",
+				"image": "okanban_fullwidth.jpg",
 				"image_position": "top"
 			},
 			{
-				"title": "cool title 2",
-				"description": "hoho",
-				"background": "black",
-				"foreground": "white",
-				"image": "",
+				"offset": 0,
+				"title": "Visual Language",
+				"description": "We studied Spotify’s brand guidelines and worked with their existing palette to create an experience that both respects guidelines and pushes creative boundaries. We used gradients that evolved from core Spotify brand colors as well as decorative graphical elements that mirror the exuberance and vibrancy in millennials’ lifestyles.",
+				"image": "okanban_palette.jpg",
+				"image_position": "right"
+			},
+			{
+				"offset": 0,
+				"title": "Successful Launch",
+				"description": "The app was released near the end of 2020. It is currently available for download in both the App Store and Google Play",
+				"image": "enviominutos_small.jpg",
 				"image_position": "top"
 			}
 		]
 	},
 	{
 		"order": 2,
-		"title": "Typing Website",
-		"thumbnail": "enviominutos_small.jpg",
-		"picture": "enviominutos_phones_small.jpg",
+		"title": "ASTRO",
+		"thumbnail": "astro_front.jpg",
+		"picture": "astro_design.png",
 		"category": "design",
-		"accent_color": "#606090",
-		"technology": ["c", "a", "q"],
-
+		"accent_color": "#323232",
+		"technologies": [".NET 5", "WebSockets", "C#", "MS SQL", "REST"],
+		"platforms": ["Web", "Android", "iOS"],
+		"roles": [
+			"Programming",
+			"Logo/Identity Design",
+			"IU UX Design",
+			"Interaction Design"
+		],
+		"deliverables": ["Mobile App", "Logo", "Design", ""],
 		"description": "ehoo",
 		"source_link": "dfs",
 		"live_link": "obboi",
 		"time_taken": "2019-2020",
 		"sections": [
 			{
-				"title": "cool title",
-				"description": "hehe",
-				"background": "black",
-				"foreground": "white",
+				"offset": 0,
+				"title": "Mobile Top-ups <span style='color:#459ff5'>Worldwide<span>",
+				"description": "Spotify is the #1 music service in the world with over 220 million subscribers. That consumer success, however, needed to be matched with powerful storytelling to become equally compelling to the advertising world. We worked with Spotify to create an interactive experience to demonstrate how music interacts with a day in the life of a millenial listener.",
 				"image": "",
-				"image_position": "top"
+				"image_position": "right"
 			},
 			{
-				"title": "cool title 2",
-				"description": "hoho",
-				"background": "black",
-				"foreground": "white",
-				"image": "",
-				"image_position": "top"
-			}
-		]
-	},
-	{
-		"order": 3,
-		"title": "Puzzle Game",
-		"thumbnail": "enviominutos_small.jpg",
-		"picture": "enviominutos_phones_small.jpg",
-		"category": "design",
-		"accent_color": "#999",
-		"technology": ["c", "a", "q"],
-		"description": "ehoo",
-		"source_link ": "dfs",
-		"live_link": "obboi",
-		"time_taken": "2019-2020",
-		"sections": [
-			{
-				"title": "",
+				"offset": 0,
+				"title": "Product Definition",
 				"description": "",
-				"background": "black",
-				"foreground": "white",
 				"image": "",
+				"image_position": ""
+			},
+			{
+				"offset": 0,
+				"title": "",
+				"description": "hoho",
+				"image": "astro_design.png",
 				"image_position": "top"
 			},
 			{
-				"title": "cool title 2",
-				"description": "hoho",
-				"background": "black",
-				"foreground": "white",
-				"image": "",
+				"offset": 0,
+				"title": "Visual Language",
+				"description": "We studied Spotify’s brand guidelines and worked with their existing palette to create an experience that both respects guidelines and pushes creative boundaries. We used gradients that evolved from core Spotify brand colors as well as decorative graphical elements that mirror the exuberance and vibrancy in millennials’ lifestyles.",
+				"image": "okanban_palette.jpg",
+				"image_position": "right"
+			},
+			{
+				"offset": 0,
+				"title": "Successful Launch",
+				"description": "The app was released near the end of 2020. It is currently available for download in both the App Store and Google Play",
+				"image": "enviominutos_small.jpg",
 				"image_position": "top"
 			}
 		]

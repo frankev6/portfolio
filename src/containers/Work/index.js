@@ -1,18 +1,18 @@
 import React, { useState } from "react";
 import Button from "../../components/Button";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import "./index.css";
 import projects from "../../assets/projects.json";
 import Projects from "../Projects";
 import WorkNavbar from "../../components/WorkNavbar";
 import WorkFooter from "../../components/WorkFooter";
 import WorkSections from "../../components/WorkSections";
+import Parallax from "../../components/Parallax";
 
 function Work() {
 	const { id } = useParams();
 	const [InTransition, setInTransition] = useState(false);
 	var currP = projects[id];
-
 	if (id == null) {
 		return (
 			<div>
@@ -25,33 +25,40 @@ function Work() {
 		return (
 			<div key={currP.order}>
 				<WorkNavbar currP={currP} />
-				<div
-					className="work-hero"
-					style={{ backgroundColor: currP.accent_color }}
-				>
-					<div className="work-title">
-						<h1 className="noselect large-text">{currP.title}</h1>
-						<h3>{currP.time_taken}</h3>
-						<p className="noselect work-description small-text">
-							{currP.description}
-						</p>
+				<Parallax speedX={0} speedY={-0.5} fadein={false}>
+					<div
+						className="work-hero"
+						style={{
+							backgroundColor: currP.accent_color,
+						}}
+					>
+						<div className="work-title">
+							<h1 className="noselect large-text">{currP.title}</h1>
+							<h3>{currP.time_taken}</h3>
+							<p className="noselect work-description small-text">
+								{currP.description}
+							</p>
 
-						<div className="work-title-buttons">
-							<a href="#" style={{ marginRight: 40 }}>
-								<Button type="secondary" style={{ color: currP.accent_color }}>
-									Live Project
-								</Button>
-							</a>
-							<a href="#">
-								<Button type="secondary-outline">Source Code</Button>
-							</a>
+							<div className="work-title-buttons">
+								<a href="#" style={{ marginRight: 40 }}>
+									<Button
+										type="secondary"
+										style={{ color: currP.accent_color }}
+									>
+										Live Project
+									</Button>
+								</a>
+								<a href="#">
+									<Button type="secondary-outline">Source Code</Button>
+								</a>
+							</div>
 						</div>
+						<img src={image}></img>
 					</div>
-					<img src={image}></img>
-				</div>
-				<div style={{ width: "100%", overflowX: "hidden", marginTop: -60 }}>
-					<div className="draw-separator-top"></div>
-				</div>
+					<div style={{ width: "100%", overflowX: "hidden", marginTop: -60 }}>
+						<div className="draw-separator-top"></div>
+					</div>
+				</Parallax>
 				<div
 					className="work-transition-item"
 					style={{ opacity: InTransition ? 0 : 1 }}
