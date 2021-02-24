@@ -1,9 +1,14 @@
 .work-tech-item {
-	margin-right: 3rem;
-	margin-left: 3rem;
+	margin-right: 5.5%;
+	margin-left: 5.5%;
+}
+.work-tech-item p {
+	color: #484848;
 }
 .work-tech-title {
+	font-family: "ITCDemi";
 	font-weight: 600;
+	color: black !important;
 }
 
 .work-item-image.full-width {

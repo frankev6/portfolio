@@ -15,45 +15,70 @@
 			"Interaction Design"
 		],
 		"deliverables": ["Mobile App", "Logo", "Design", ""],
-		"description": "ehoo",
+		"description": "Send Mobile Top-ups to friends and family in over 100 countries.",
 		"source_link": "dfs",
 		"live_link": "obboi",
 		"time_taken": "2019-2020",
 		"sections": [
 			{
-				"offset": 0,
-				"title": "Mobile Top-ups <span style='color:#459ff5'>Worldwide<span>",
+				"parallax": {
+					"offset": 0,
+					"speedX": 0,
+					"speedY": 0.1
+				},
+				"title": "Mobile Top-ups Worldwide",
 				"description": "Spotify is the #1 music service in the world with over 220 million subscribers. That consumer success, however, needed to be matched with powerful storytelling to become equally compelling to the advertising world. We worked with Spotify to create an interactive experience to demonstrate how music interacts with a day in the life of a millenial listener.",
-				"image": "",
-				"image_position": "right"
+				"image": ""
 			},
 			{
-				"offset": 0,
-				"title": "Product Definition",
-				"description": "",
-				"image": "",
-				"image_position": ""
-			},
-			{
-				"offset": 700,
+				"parallax": {
+					"offset": 700,
+					"speedX": 0,
+					"speedY": 0.15
+				},
 				"title": "",
-				"description": "hoho",
-				"image": "enviominutos_fullwidth.jpg",
-				"image_position": "top"
+				"description": "",
+				"image": "enviominutos_fullwidth.jpg"
 			},
 			{
-				"offset": 0,
+				"parallax": {
+					"offset": 0,
+					"speedX": 0,
+					"speedY": 0.1
+				},
 				"title": "Visual Language",
 				"description": "We studied Spotify’s brand guidelines and worked with their existing palette to create an experience that both respects guidelines and pushes creative boundaries. We used gradients that evolved from core Spotify brand colors as well as decorative graphical elements that mirror the exuberance and vibrancy in millennials’ lifestyles.",
-				"image": "enviominutos_palette.jpg",
-				"image_position": "right"
+				"image": ""
 			},
 			{
-				"offset": 400,
+				"parallax": {
+					"offset": 0,
+					"speedX": 0,
+					"speedY": 0.1
+				},
+				"title": "",
+				"description": "",
+				"image": "enviominutos_palette.jpg"
+			},
+			{
+				"parallax": {
+					"offset": 0,
+					"speedX": 0,
+					"speedY": 0.1
+				},
 				"title": "Successful Launch",
-				"description": "The app was released near the end of 2020. It is currently available for download in both the App Store and Google Play",
-				"image": "enviominutos_small.jpg",
-				"image_position": "top"
+				"description": "The app was released near the end of 2020. It is currently available for download in both the App Store and Google Play. People all over the world use the app daily to top-up their family members, friends, and even themselves",
+				"image": ""
+			},
+			{
+				"parallax": {
+					"offset": 400,
+					"speedX": 0,
+					"speedY": 0.1
+				},
+				"title": "",
+				"description": "",
+				"image": "enviominutos_small.jpg"
 			}
 		]
 	},
@@ -79,39 +104,54 @@
 		"time_taken": "2019-2020",
 		"sections": [
 			{
-				"offset": 0,
+				"parallax": {
+					"offset": 0,
+					"speedX": 0,
+					"speedY": 0.1
+				},
 				"title": "Mobile Top-ups <span style='color:#459ff5'>Worldwide<span>",
 				"description": "Spotify is the #1 music service in the world with over 220 million subscribers. That consumer success, however, needed to be matched with powerful storytelling to become equally compelling to the advertising world. We worked with Spotify to create an interactive experience to demonstrate how music interacts with a day in the life of a millenial listener.",
-				"image": "",
-				"image_position": "right"
+				"image": ""
 			},
 			{
-				"offset": 0,
+				"parallax": {
+					"offset": 0,
+					"speedX": 0,
+					"speedY": 0.1
+				},
 				"title": "Product Definition",
 				"description": "",
-				"image": "",
-				"image_position": ""
+				"image": ""
 			},
 			{
-				"offset": 0,
+				"parallax": {
+					"offset": 0,
+					"speedX": 0,
+					"speedY": 0.1
+				},
 				"title": "",
 				"description": "hoho",
-				"image": "okanban_fullwidth.jpg",
-				"image_position": "top"
+				"image": "okanban_fullwidth.jpg"
 			},
 			{
-				"offset": 0,
+				"parallax": {
+					"offset": 0,
+					"speedX": 0,
+					"speedY": 0.1
+				},
 				"title": "Visual Language",
 				"description": "We studied Spotify’s brand guidelines and worked with their existing palette to create an experience that both respects guidelines and pushes creative boundaries. We used gradients that evolved from core Spotify brand colors as well as decorative graphical elements that mirror the exuberance and vibrancy in millennials’ lifestyles.",
-				"image": "okanban_palette.jpg",
-				"image_position": "right"
+				"image": "okanban_palette.jpg"
 			},
 			{
-				"offset": 0,
+				"parallax": {
+					"offset": 0,
+					"speedX": 0,
+					"speedY": 0.1
+				},
 				"title": "Successful Launch",
 				"description": "The app was released near the end of 2020. It is currently available for download in both the App Store and Google Play",
-				"image": "enviominutos_small.jpg",
-				"image_position": "top"
+				"image": "enviominutos_small.jpg"
 			}
 		]
 	},
@@ -137,39 +177,56 @@
 		"time_taken": "2019-2020",
 		"sections": [
 			{
-				"offset": 0,
+				"parallax": {
+					"offset": 0,
+					"speedX": 0,
+					"speedY": 0.1
+				},
 				"title": "Mobile Top-ups <span style='color:#459ff5'>Worldwide<span>",
 				"description": "Spotify is the #1 music service in the world with over 220 million subscribers. That consumer success, however, needed to be matched with powerful storytelling to become equally compelling to the advertising world. We worked with Spotify to create an interactive experience to demonstrate how music interacts with a day in the life of a millenial listener.",
 				"image": "",
 				"image_position": "right"
 			},
 			{
-				"offset": 0,
+				"parallax": {
+					"offset": 0,
+					"speedX": 0,
+					"speedY": 0.1
+				},
 				"title": "Product Definition",
 				"description": "",
 				"image": "",
 				"image_position": ""
 			},
 			{
-				"offset": 0,
+				"parallax": {
+					"offset": 0,
+					"speedX": 0,
+					"speedY": 0.1
+				},
 				"title": "",
 				"description": "hoho",
-				"image": "astro_design.png",
-				"image_position": "top"
+				"image": "astro_design.png"
 			},
 			{
-				"offset": 0,
+				"parallax": {
+					"offset": 0,
+					"speedX": 0,
+					"speedY": 0.1
+				},
 				"title": "Visual Language",
 				"description": "We studied Spotify’s brand guidelines and worked with their existing palette to create an experience that both respects guidelines and pushes creative boundaries. We used gradients that evolved from core Spotify brand colors as well as decorative graphical elements that mirror the exuberance and vibrancy in millennials’ lifestyles.",
-				"image": "okanban_palette.jpg",
-				"image_position": "right"
+				"image": "okanban_palette.jpg"
 			},
 			{
-				"offset": 0,
+				"parallax": {
+					"offset": 0,
+					"speedX": 0,
+					"speedY": 0.1
+				},
 				"title": "Successful Launch",
 				"description": "The app was released near the end of 2020. It is currently available for download in both the App Store and Google Play",
-				"image": "enviominutos_small.jpg",
-				"image_position": "top"
+				"image": "enviominutos_small.jpg"
 			}
 		]
 	}

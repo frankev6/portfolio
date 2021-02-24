@@ -36,7 +36,17 @@
 	width: fit-content;
 }
 .work-item-info {
-	max-width: 650px;
+	max-width: 1050px;
+	display: flex;
+}
+.work-item-info h1 {
+	min-width: 450px;
+}
+.work-item-info p {
+	margin-left: 50px;
+	min-width: 600px;
+	color: #484848;
+	line-height: 200%;
 }
 
 .work-item-image {

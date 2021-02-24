@@ -25,7 +25,10 @@ function WorkSections({ currP }) {
 	});
 
 	const RolesSection = (
-		<div style={{ display: "flex", justifyContent: "center" }}>
+		<Parallax
+			fadein={true}
+			style={{ display: "flex", justifyContent: "center" }}
+		>
 			<div className="work-tech-item">
 				<p className="work-tech-title">Platforms</p>
 				{platforms}
@@ -42,7 +45,7 @@ function WorkSections({ currP }) {
 				<p className="work-tech-title">Technologies</p>
 				{technologies}
 			</div>
-		</div>
+		</Parallax>
 	);
 	currP.sections.forEach((s) => {
 		var items = [];
@@ -52,38 +55,17 @@ function WorkSections({ currP }) {
 		if (!onlyImage) {
 			items.push(
 				<div key={items.length} className="work-item-info">
-					<h1 className="large-text" style={{ marginBottom: 20 }}>
-						<ToHtml content={s.title} />
-					</h1>
-					<p className="small-text">
-						<ToHtml content={s.description} />
-					</p>
+					<h1 className="medium-text">{s.title}</h1>
+					<p className="small-text">{s.description}</p>
 				</div>
 			);
 
 			if (s.image != "") {
 				const image = require(`../../assets/images/${s.image}`).default;
 
-				if (s.image_position == "right") {
-					items.push(
-						<img
-							src={image}
-							key={items.length}
-							className="work-item-image"
-						></img>
-					);
-				} else {
-					if (s.image_position == "top") {
-						imageTop = true;
-					}
-					items.unshift(
-						<img
-							src={image}
-							key={items.length}
-							className="work-item-image"
-						></img>
-					);
-				}
+				items.unshift(
+					<img src={image} key={items.length} className="work-item-image"></img>
+				);
 			}
 		} else {
 			const image = require(`../../assets/images/${s.image}`).default;
@@ -102,7 +84,12 @@ function WorkSections({ currP }) {
 				className="work-item"
 				style={{ display: imageTop ? "block" : "flex" }}
 			>
-				<Parallax fadein={true} offset={s.offset} speedY={0.1} speedX={0}>
+				<Parallax
+					fadein={true}
+					offset={s.parallax.offset}
+					speedY={s.parallax.speedY}
+					speedX={s.parallax.speedX}
+				>
 					{items}
 				</Parallax>
 			</div>

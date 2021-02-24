@@ -3,11 +3,13 @@
 	padding-left: 1.2rem;
 	padding-right: 1.2rem;
 	font-weight: 700;
-	font-size: 15px;
+	font-size: 14px;
 	border: 0;
 	border-radius: 6px;
 	cursor: pointer;
 	transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+	font-family: "ITCDemi" !important;
+	font-weight: 700;
 	outline: none;
 	box-shadow: none;
 	overflow: hidden;
