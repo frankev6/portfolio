@@ -14,33 +14,31 @@ function Projects() {
 		const image = require(`../../assets/images/${p.thumbnail}`).default;
 
 		projectItems.push(
-			<div key={p.order}>
-				<Parallax speedX={0} speedY={0} fadein={true} offset={300}>
+			<div
+				key={p.order}
+				className={"project-item " + (isTransEl ? "project-transition" : "")}
+			>
+				<DelayLink
+					to={"/work/" + p.order}
+					delay={800}
+					onDelayEnd={() => window.scrollTo(0, 0)}
+					onDelayStart={() => {
+						setItem(p.order);
+					}}
+				>
 					<div
-						className={
-							"project-item " + (isTransEl ? "project-transition" : "")
-						}
+						className="project-image"
+						style={{
+							background: p.accent_color,
+							borderColor: p.accent_color,
+							overflow: "hidden",
+						}}
 					>
-						<DelayLink
-							to={"/work/" + p.order}
-							delay={800}
-							onDelayEnd={() => window.scrollTo(0, 0)}
-							onDelayStart={() => {
-								setItem(p.order);
-							}}
-						>
-							<div
-								className="project-image"
-								style={{
-									background: p.accent_color,
-									borderColor: p.accent_color,
-								}}
-							>
-								<img src={image}></img>
-							</div>
-						</DelayLink>
+						<Parallax speedX={0} speedY={0.3}>
+							<img src={image}></img>
+						</Parallax>
 					</div>
-				</Parallax>
+				</DelayLink>
 			</div>
 		);
 	});

@@ -27,11 +27,12 @@
 
 .project-image img {
 	width: 100%;
+	transform: scale(1.05);
 	height: 100%;
-	transition: all 200ms ease;
+	transition: all 400ms ease;
 }
 .project-item:hover .project-image img {
-	transform: scale(1.05);
+	transform: scale(1.1);
 }
 
 .project-title {

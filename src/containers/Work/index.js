@@ -25,11 +25,19 @@ function Work() {
 		return (
 			<div key={currP.order}>
 				<WorkNavbar currP={currP} />
-				<Parallax speedX={0} speedY={-0.5} fadein={false}>
-					<div
-						className="work-hero"
+				<div
+					className="work-hero"
+					style={{
+						backgroundColor: currP.accent_color,
+						overflow: "hidden",
+					}}
+				>
+					<Parallax
+						speedY={0.5}
+						speedX={0}
 						style={{
-							backgroundColor: currP.accent_color,
+							overflow: "hidden",
+							display: "flex",
 						}}
 					>
 						<div className="work-title">
@@ -54,11 +62,11 @@ function Work() {
 							</div>
 						</div>
 						<img src={image}></img>
-					</div>
-					<div style={{ width: "100%", overflowX: "hidden", marginTop: -60 }}>
-						<div className="draw-separator-top"></div>
-					</div>
-				</Parallax>
+					</Parallax>
+				</div>
+				<div style={{ width: "100%", overflowX: "hidden", marginTop: -60 }}>
+					<div className="draw-separator-top"></div>
+				</div>
 				<div
 					className="work-transition-item"
 					style={{ opacity: InTransition ? 0 : 1 }}

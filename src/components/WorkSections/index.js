@@ -102,7 +102,7 @@ function WorkSections({ currP }) {
 				className="work-item"
 				style={{ display: imageTop ? "block" : "flex" }}
 			>
-				<Parallax fadein={true} offset={s.offset}>
+				<Parallax fadein={true} offset={s.offset} speedY={0.1} speedX={0}>
 					{items}
 				</Parallax>
 			</div>
