@@ -7,6 +7,7 @@ import { ScrollContext } from "../../containers/AppContext";
 function Navbar() {
 	const { pathname } = useLocation();
 	const [navbar, showNavbar] = useState(false);
+	const [showMenu, setShowMenu] = useState(false);
 	const scrollY = useContext(ScrollContext);
 
 	useEffect(() => {
@@ -17,7 +18,7 @@ function Navbar() {
 		<nav
 			className={
 				"navbar " +
-				(pathname == "/work" || pathname == "/contact"
+				(showMenu == false && (pathname == "/work" || pathname == "/contact")
 					? navbar
 						? "dark"
 						: "light"
@@ -26,7 +27,7 @@ function Navbar() {
 					: "")
 			}
 		>
-			<ul className="nav-list">
+			<ul className={"nav-list " + (showMenu ? "active" : "")}>
 				<li>
 					<Link className="nav-link" to="/">
 						Home
@@ -46,7 +47,8 @@ function Navbar() {
 					<Link className="nav-link" to="/contact">
 						<Button
 							type={
-								pathname == "/work" || pathname == "/contact"
+								showMenu == false &&
+								(pathname == "/work" || pathname == "/contact")
 									? navbar
 										? "secondary"
 										: "primary-outline"
@@ -60,6 +62,16 @@ function Navbar() {
 					</Link>
 				</li>
 			</ul>
+			<div
+				className="nav-bread"
+				onClick={() => {
+					setShowMenu(!showMenu);
+				}}
+			>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
 		</nav>
 	);
 }

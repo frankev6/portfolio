@@ -58,6 +58,7 @@ code {
 	margin-bottom: 0;
 	margin-top: 0;
 	font-weight: 600;
+	white-space: nowrap;
 }
 
 a {
@@ -97,7 +98,7 @@ input[type="text"] {
 	box-sizing: border-box;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1124px) {
 	.large-text {
 		font-size: 4rem;
 	}

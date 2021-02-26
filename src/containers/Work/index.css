@@ -7,14 +7,17 @@
 .work-hero img {
 	max-height: 95%;
 	max-width: 50%;
-	padding: 2rem;
 	margin: auto;
 	animation: work-picture-float 4000ms ease infinite;
 }
 
+.work-front {
+	display: flex;
+	overflow: hidden;
+}
+
 .work-title {
 	margin: auto;
-	width: 50%;
 	color: white;
 	text-align: center;
 }
@@ -52,6 +55,9 @@
 .work-item-image {
 	border-radius: 10px;
 }
+.work-title-buttons button {
+	margin: 10px;
+}
 
 @keyframes work-picture-float {
 	100% {
@@ -71,5 +77,41 @@
 	}
 	100% {
 		height: 95vh;
+	}
+}
+
+@media screen and (max-width: 1324px) {
+	.work-item-info {
+		max-width: 850px;
+		flex-wrap: wrap;
+	}
+	.work-item-info h1 {
+		min-width: 0px;
+		margin: 20px;
+	}
+	.work-item-info p {
+		margin: 20px;
+		min-width: 0px;
+	}
+	.work-front {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+}
+@media screen and (max-width: 1030px) {
+	.work-hero img {
+		max-width: 80%;
+	}
+}
+
+@media screen and (max-width: 630px) {
+	.work-hero img {
+		max-width: 100%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.work-title p {
+		display: none;
 	}
 }

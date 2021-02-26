@@ -19,8 +19,8 @@ function WorkNavbar({ currP }) {
 		>
 			<div className="work-nav-list">
 				<div style={{ display: "flex", color: "white", marginTop: -12 }}>
-					<h1 style={{ marginRight: 15 }}>{currP.title}</h1>
-					<h2>{currP.time_taken}</h2>
+					<h3 style={{ marginRight: 15 }}>{currP.title}</h3>
+					<h3>{currP.time_taken}</h3>
 				</div>
 				<div>
 					<a href="#" style={{ marginRight: 15 }}>

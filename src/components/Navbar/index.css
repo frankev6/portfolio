@@ -24,10 +24,51 @@
 	text-decoration: none;
 	transition: all 200ms linear;
 	color: #fff;
-	font-weight: 700;
+	font-size: 14px;
 	padding: 1rem;
 }
-
+.nav-bread {
+	display: none;
+	height: 30px;
+	width: 30px;
+	float: right;
+	margin: 6px;
+	margin-top: 13px;
+	z-index: 1000;
+}
 li {
 	display: inline;
+}
+@media screen and (max-width: 830px) {
+	.nav-list {
+		display: none;
+	}
+	.nav-bread {
+		cursor: pointer;
+		display: grid;
+	}
+	.nav-bread span {
+		width: 24px;
+		background: white;
+		height: 2px;
+	}
+	.nav-list.active {
+		display: flex;
+		flex-direction: column;
+		position: fixed;
+		width: 100vw;
+		height: 100vh;
+		background-color: black;
+		margin: 0;
+		z-index: -1;
+	}
+	li {
+		display: contents;
+	}
+	li .nav-link {
+		margin-top: 20px;
+		font-size: 200%;
+	}
+	li .btn {
+	}
 }

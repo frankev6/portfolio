@@ -32,14 +32,7 @@ function Work() {
 						overflow: "hidden",
 					}}
 				>
-					<Parallax
-						speedY={0.5}
-						speedX={0}
-						style={{
-							overflow: "hidden",
-							display: "flex",
-						}}
-					>
+					<Parallax speedY={0.5} speedX={0} className="work-front">
 						<div className="work-title">
 							<h1 className="noselect large-text">{currP.title}</h1>
 							<h3>{currP.time_taken}</h3>
@@ -48,7 +41,7 @@ function Work() {
 							</p>
 
 							<div className="work-title-buttons">
-								<a href="#" style={{ marginRight: 40 }}>
+								<a href="#">
 									<Button
 										type="secondary"
 										style={{ color: currP.accent_color }}

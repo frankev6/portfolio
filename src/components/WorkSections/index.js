@@ -25,10 +25,7 @@ function WorkSections({ currP }) {
 	});
 
 	const RolesSection = (
-		<Parallax
-			fadein={true}
-			style={{ display: "flex", justifyContent: "center" }}
-		>
+		<Parallax fadein={true} className="work-tech">
 			<div className="work-tech-item">
 				<p className="work-tech-title">Platforms</p>
 				{platforms}

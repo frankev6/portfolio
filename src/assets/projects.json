@@ -56,16 +56,6 @@
 					"speedX": 0,
 					"speedY": 0.1
 				},
-				"title": "",
-				"description": "",
-				"image": "enviominutos_palette.jpg"
-			},
-			{
-				"parallax": {
-					"offset": 0,
-					"speedX": 0,
-					"speedY": 0.1
-				},
 				"title": "Successful Launch",
 				"description": "The app was released near the end of 2020. It is currently available for download in both the App Store and Google Play. People all over the world use the app daily to top-up their family members, friends, and even themselves",
 				"image": ""

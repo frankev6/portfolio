@@ -13,7 +13,15 @@ function calculateDistance(element) {
 	return window.innerHeight / 2 - (rect.top + rect.height / 2);
 }
 
-function Parallax({ fadein, speedX, speedY, children, style, offset }) {
+function Parallax({
+	fadein,
+	speedX,
+	speedY,
+	children,
+	style,
+	className,
+	offset,
+}) {
 	const scrollY = useContext(ScrollContext);
 	const objRef = useRef();
 	var translateString = "translate(0,0)";
@@ -27,6 +35,7 @@ function Parallax({ fadein, speedX, speedY, children, style, offset }) {
 	}
 	return (
 		<div
+			className={className}
 			ref={objRef}
 			style={{
 				...style,

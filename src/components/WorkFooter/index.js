@@ -70,8 +70,8 @@ function WorkFooter({
 								Next Project
 								<ArrowRight
 									fill="white"
-									width="30"
-									style={{ marginLeft: 100 }}
+									width="3vh"
+									style={{ marginLeft: "6vh" }}
 								/>
 							</h1>
 						</div>
