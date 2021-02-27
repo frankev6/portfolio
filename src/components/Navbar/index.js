@@ -10,15 +10,21 @@ function Navbar() {
 	const [showMenu, setShowMenu] = useState(false);
 	const scrollY = useContext(ScrollContext);
 
+	var whiteBackground =
+		pathname == "/work" || pathname == "/contact" || pathname == "/about";
+
 	useEffect(() => {
-		showNavbar(scrollY >= 200 ? true : false);
+		showNavbar(scrollY >= 80 ? true : false);
 	}, [scrollY]);
+	useEffect(() => {
+		setShowMenu(false);
+	}, [pathname]);
 
 	return (
 		<nav
 			className={
 				"navbar " +
-				(showMenu == false && (pathname == "/work" || pathname == "/contact")
+				(showMenu == false && whiteBackground
 					? navbar
 						? "dark"
 						: "light"
@@ -47,8 +53,7 @@ function Navbar() {
 					<Link className="nav-link" to="/contact">
 						<Button
 							type={
-								showMenu == false &&
-								(pathname == "/work" || pathname == "/contact")
+								showMenu == false && whiteBackground
 									? navbar
 										? "secondary"
 										: "primary-outline"
@@ -63,7 +68,9 @@ function Navbar() {
 				</li>
 			</ul>
 			<div
-				className="nav-bread"
+				className={
+					"nav-bread " + (!navbar && !showMenu && whiteBackground ? "show" : "")
+				}
 				onClick={() => {
 					setShowMenu(!showMenu);
 				}}

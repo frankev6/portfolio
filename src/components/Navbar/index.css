@@ -18,6 +18,7 @@
 	margin-right: 6vw;
 	float: right;
 	margin-top: 10px;
+
 	margin-bottom: 10px;
 }
 .nav-link {
@@ -41,7 +42,15 @@ li {
 }
 @media screen and (max-width: 830px) {
 	.nav-list {
-		display: none;
+		display: flex;
+		flex-direction: column;
+		position: fixed;
+		transform: translateX(-150vw);
+		transition: all 400ms ease;
+		opacity: 0;
+		width: 100vw;
+		padding-top: 30px;
+		height: 100vh;
 	}
 	.nav-bread {
 		cursor: pointer;
@@ -56,12 +65,18 @@ li {
 		display: flex;
 		flex-direction: column;
 		position: fixed;
-		width: 100vw;
-		height: 100vh;
 		background-color: black;
 		margin: 0;
 		z-index: -1;
+		transform: translateX(0);
+
+		opacity: 1;
 	}
+
+	.nav-bread.show span {
+		background-color: black;
+	}
+
 	li {
 		display: contents;
 	}
@@ -69,6 +84,7 @@ li {
 		margin-top: 20px;
 		font-size: 200%;
 	}
+
 	li .btn {
 	}
 }

@@ -61,23 +61,32 @@
 	z-index: -1;
 	opacity: 0;
 }
-
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 2560px) {
 	.project-image {
-		width: 40rem;
-		height: 20rem;
+		width: 1920px;
+		height: 1080px;
+	}
+	.project-image img {
+		width: 1920px;
+		height: 1080px;
+	}
+}
+@media screen and (max-width: 1125px) {
+	.project-image {
+		width: 607px;
+		height: 341px;
 	}
 }
 @media screen and (max-width: 630px) {
 	.project-image {
-		width: 25rem;
-		height: 12.5rem;
+		width: 409px;
+		height: 230px;
 	}
 }
 
 @media screen and (max-width: 480px) {
 	.project-image {
-		width: 15rem;
-		height: 7.5rem;
+		width: 276px;
+		height: 155px;
 	}
 }
