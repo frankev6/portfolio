@@ -65,16 +65,11 @@
 	color: rgb(0, 0, 0);
 	box-shadow: inset 0 0 0 0.15rem black;
 }
+.btn--primary-outline::after {
+	background: rgb(124, 124, 124);
+}
 .btn--secondary-outline {
 	background-color: transparent;
 	color: white;
 	box-shadow: inset 0 0 0 0.15rem white;
-}
-
-@media screen and (max-width: 1324px) {
-}
-@media screen and (max-width: 630px) {
-}
-
-@media screen and (max-width: 480px) {
 }

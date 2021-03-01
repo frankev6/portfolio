@@ -3,7 +3,7 @@
 	top: 65px;
 	width: 100%;
 	z-index: 1000;
-	height: 60px;
+	height: 58px;
 	opacity: 0;
 
 	transition: all 200ms linear;
@@ -16,7 +16,7 @@
 .work-nav-list {
 	list-style-type: none;
 	padding: 0.4rem;
-	margin-right: 6vw;
+	margin-right: 10vw;
 	display: flex;
 	justify-content: space-between;
 }
@@ -25,4 +25,33 @@
 	color: #fff;
 	font-weight: 700;
 	padding: 1rem;
+}
+
+.work-nav-list a.disabled {
+	pointer-events: none !important;
+	cursor: not-allowed !important;
+	opacity: 0.5;
+}
+
+@media screen and (max-width: 830px) {
+	.work-navbar {
+		top: 49px;
+	}
+
+	.work-nav-list {
+		margin-right: 0;
+	}
+	.work-nav-list h3 {
+		font-size: 1rem;
+		margin-top: 1.3rem;
+	}
+}
+
+@media screen and (max-width: 530px) {
+	.work-nav-list h3 {
+		display: none;
+	}
+	.work-nav-list {
+		justify-content: center;
+	}
 }

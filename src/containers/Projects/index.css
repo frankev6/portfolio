@@ -86,7 +86,13 @@
 
 @media screen and (max-width: 480px) {
 	.project-image {
-		width: 276px;
-		height: 155px;
+		width: 331px;
+		height: 186px;
+	}
+	.project-item {
+		margin: 50px auto;
+	}
+	.project-container {
+		padding-top: 20px;
 	}
 }

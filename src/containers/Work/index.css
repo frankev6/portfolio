@@ -59,6 +59,12 @@
 	margin: 10px;
 }
 
+.work-title-buttons a.disabled {
+	pointer-events: none !important;
+	cursor: not-allowed !important;
+	opacity: 0.5;
+}
+
 @keyframes work-picture-float {
 	100% {
 		transform: translateY(0px);

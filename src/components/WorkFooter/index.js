@@ -79,7 +79,7 @@ function WorkFooter({
 				</div>
 			</DelayLink>
 			<div
-				className={"work-footer-transition"}
+				className="work-footer-transition"
 				style={{
 					height: InTransition ? "100vh" : "0",
 					backgroundColor: InTransition ? accent_color : "black",

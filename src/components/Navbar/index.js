@@ -16,9 +16,6 @@ function Navbar() {
 	useEffect(() => {
 		showNavbar(scrollY >= 80 ? true : false);
 	}, [scrollY]);
-	useEffect(() => {
-		setShowMenu(false);
-	}, [pathname]);
 
 	return (
 		<nav
@@ -35,22 +32,82 @@ function Navbar() {
 		>
 			<ul className={"nav-list " + (showMenu ? "active" : "")}>
 				<li>
-					<Link className="nav-link" to="/">
+					<Link
+						className="nav-link"
+						to="/"
+						onClick={() => {
+							setShowMenu(false);
+						}}
+					>
 						Home
+						<span
+							style={{
+								transform: "translate(-42px, 35px)",
+								backgroundColor: whiteBackground
+									? navbar
+										? "white"
+										: "black"
+									: navbar
+									? "white"
+									: "white",
+							}}
+						></span>
 					</Link>
 				</li>
 				<li>
-					<Link className="nav-link" to="/about">
+					<Link
+						className="nav-link"
+						to="/about"
+						onClick={() => {
+							setShowMenu(false);
+						}}
+					>
 						About
+						<span
+							style={{
+								transform: "translate(-42px, 35px)",
+								backgroundColor: whiteBackground
+									? navbar
+										? "white"
+										: "black"
+									: navbar
+									? "white"
+									: "white",
+							}}
+						></span>
 					</Link>
 				</li>
 				<li>
-					<Link className="nav-link" to="/work">
+					<Link
+						className="nav-link"
+						to="/work"
+						onClick={() => {
+							setShowMenu(false);
+						}}
+					>
 						Work
+						<span
+							style={{
+								transform: "translate(-37px, 35px)",
+								backgroundColor: whiteBackground
+									? navbar
+										? "white"
+										: "black"
+									: navbar
+									? "white"
+									: "white",
+							}}
+						></span>
 					</Link>
 				</li>
 				<li>
-					<Link className="nav-link" to="/contact">
+					<Link
+						className="nav-link"
+						to="/contact"
+						onClick={() => {
+							setShowMenu(false);
+						}}
+					>
 						<Button
 							type={
 								showMenu == false && whiteBackground
@@ -69,7 +126,9 @@ function Navbar() {
 			</ul>
 			<div
 				className={
-					"nav-bread " + (!navbar && !showMenu && whiteBackground ? "show" : "")
+					"nav-bread " +
+					(!navbar && !showMenu && whiteBackground ? "show" : "") +
+					(showMenu ? " active " : "")
 				}
 				onClick={() => {
 					setShowMenu(!showMenu);

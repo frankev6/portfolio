@@ -8,7 +8,7 @@ function Button({ children, type, style, onClick }) {
 			style={style}
 			onClick={onClick}
 		>
-			<span>{children}</span>
+			<div>{children}</div>
 		</button>
 	);
 }

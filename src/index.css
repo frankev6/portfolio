@@ -84,7 +84,7 @@ textarea,
 input {
 	-webkit-appearance: none;
 	outline: none;
-	font-family: "Courier New", Courier, monospace;
+	font-family: "ITCBook";
 	border-radius: 0.3rem;
 	border-width: 0.15rem;
 	width: 450px;

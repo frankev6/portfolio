@@ -35,7 +35,7 @@ function Parallax({
 	}
 	return (
 		<div
-			className={className}
+			className={"parallax " + (className != null ? className : "")}
 			ref={objRef}
 			style={{
 				...style,

@@ -41,7 +41,11 @@ function Work() {
 							</p>
 
 							<div className="work-title-buttons">
-								<a href="#">
+								<a
+									target="_blank"
+									href={currP.live_link}
+									className={currP.live_link != "" ? "" : "disabled"}
+								>
 									<Button
 										type="secondary"
 										style={{ color: currP.accent_color }}
@@ -49,7 +53,11 @@ function Work() {
 										Live Project
 									</Button>
 								</a>
-								<a href="#">
+								<a
+									target="_blank"
+									href={currP.source_link}
+									className={currP.source_link != "" ? "" : "disabled"}
+								>
 									<Button type="secondary-outline">Source Code</Button>
 								</a>
 							</div>

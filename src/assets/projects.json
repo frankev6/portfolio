@@ -16,8 +16,8 @@
 		],
 		"deliverables": ["Mobile App", "Logo", "Design", ""],
 		"description": "Send Mobile Top-ups to friends and family in over 100 countries.",
-		"source_link": "dfs",
-		"live_link": "obboi",
+		"source_link": "",
+		"live_link": "https://play.google.com/store/apps/details?id=com.lorengrave.enviominutos",
 		"time_taken": "2019-2020",
 		"sections": [
 			{
@@ -79,8 +79,8 @@
 		"picture": "okanban_front.png",
 		"category": "design",
 		"accent_color": "#7442c8",
-		"technologies": [".NET 5", "WebSockets", "C#", "MS SQL", "REST"],
-		"platforms": ["Web", "Android", "iOS"],
+		"technologies": ["Xamarin", "REST", "C#"],
+		"platforms": ["Android", "iOS"],
 		"roles": [
 			"Programming",
 			"Logo/Identity Design",
@@ -88,9 +88,9 @@
 			"Interaction Design"
 		],
 		"deliverables": ["Mobile App", "Logo", "Design", ""],
-		"description": "ehoo",
-		"source_link": "dfs",
-		"live_link": "obboi",
+		"description": "Send Mobile Top-ups to friends and family in over 100 countries.",
+		"source_link": "",
+		"live_link": "",
 		"time_taken": "2019-2020",
 		"sections": [
 			{
@@ -99,28 +99,18 @@
 					"speedX": 0,
 					"speedY": 0.1
 				},
-				"title": "Mobile Top-ups <span style='color:#459ff5'>Worldwide<span>",
+				"title": "Mobile Top-ups Worldwide",
 				"description": "Spotify is the #1 music service in the world with over 220 million subscribers. That consumer success, however, needed to be matched with powerful storytelling to become equally compelling to the advertising world. We worked with Spotify to create an interactive experience to demonstrate how music interacts with a day in the life of a millenial listener.",
 				"image": ""
 			},
 			{
 				"parallax": {
-					"offset": 0,
+					"offset": 700,
 					"speedX": 0,
-					"speedY": 0.1
-				},
-				"title": "Product Definition",
-				"description": "",
-				"image": ""
-			},
-			{
-				"parallax": {
-					"offset": 0,
-					"speedX": 0,
-					"speedY": 0.1
+					"speedY": 0.15
 				},
 				"title": "",
-				"description": "hoho",
+				"description": "",
 				"image": "okanban_fullwidth.jpg"
 			},
 			{
@@ -131,7 +121,7 @@
 				},
 				"title": "Visual Language",
 				"description": "We studied Spotify’s brand guidelines and worked with their existing palette to create an experience that both respects guidelines and pushes creative boundaries. We used gradients that evolved from core Spotify brand colors as well as decorative graphical elements that mirror the exuberance and vibrancy in millennials’ lifestyles.",
-				"image": "okanban_palette.jpg"
+				"image": ""
 			},
 			{
 				"parallax": {
@@ -140,8 +130,18 @@
 					"speedY": 0.1
 				},
 				"title": "Successful Launch",
-				"description": "The app was released near the end of 2020. It is currently available for download in both the App Store and Google Play",
-				"image": "enviominutos_small.jpg"
+				"description": "The app was released near the end of 2020. It is currently available for download in both the App Store and Google Play. People all over the world use the app daily to top-up their family members, friends, and even themselves",
+				"image": ""
+			},
+			{
+				"parallax": {
+					"offset": 400,
+					"speedX": 0,
+					"speedY": 0.1
+				},
+				"title": "",
+				"description": "",
+				"image": "okanban_palette.jpg"
 			}
 		]
 	},
@@ -152,8 +152,8 @@
 		"picture": "astro_design.png",
 		"category": "design",
 		"accent_color": "#323232",
-		"technologies": [".NET 5", "WebSockets", "C#", "MS SQL", "REST"],
-		"platforms": ["Web", "Android", "iOS"],
+		"technologies": ["Xamarin", "REST", "C#"],
+		"platforms": ["Android", "iOS"],
 		"roles": [
 			"Programming",
 			"Logo/Identity Design",
@@ -161,9 +161,9 @@
 			"Interaction Design"
 		],
 		"deliverables": ["Mobile App", "Logo", "Design", ""],
-		"description": "ehoo",
-		"source_link": "dfs",
-		"live_link": "obboi",
+		"description": "Send Mobile Top-ups to friends and family in over 100 countries.",
+		"source_link": "",
+		"live_link": "",
 		"time_taken": "2019-2020",
 		"sections": [
 			{
@@ -172,30 +172,18 @@
 					"speedX": 0,
 					"speedY": 0.1
 				},
-				"title": "Mobile Top-ups <span style='color:#459ff5'>Worldwide<span>",
+				"title": "Mobile Top-ups Worldwide",
 				"description": "Spotify is the #1 music service in the world with over 220 million subscribers. That consumer success, however, needed to be matched with powerful storytelling to become equally compelling to the advertising world. We worked with Spotify to create an interactive experience to demonstrate how music interacts with a day in the life of a millenial listener.",
-				"image": "",
-				"image_position": "right"
+				"image": ""
 			},
 			{
 				"parallax": {
-					"offset": 0,
+					"offset": 700,
 					"speedX": 0,
-					"speedY": 0.1
-				},
-				"title": "Product Definition",
-				"description": "",
-				"image": "",
-				"image_position": ""
-			},
-			{
-				"parallax": {
-					"offset": 0,
-					"speedX": 0,
-					"speedY": 0.1
+					"speedY": 0.15
 				},
 				"title": "",
-				"description": "hoho",
+				"description": "",
 				"image": "astro_design.png"
 			},
 			{
@@ -206,7 +194,7 @@
 				},
 				"title": "Visual Language",
 				"description": "We studied Spotify’s brand guidelines and worked with their existing palette to create an experience that both respects guidelines and pushes creative boundaries. We used gradients that evolved from core Spotify brand colors as well as decorative graphical elements that mirror the exuberance and vibrancy in millennials’ lifestyles.",
-				"image": "okanban_palette.jpg"
+				"image": ""
 			},
 			{
 				"parallax": {
@@ -215,7 +203,90 @@
 					"speedY": 0.1
 				},
 				"title": "Successful Launch",
-				"description": "The app was released near the end of 2020. It is currently available for download in both the App Store and Google Play",
+				"description": "The app was released near the end of 2020. It is currently available for download in both the App Store and Google Play. People all over the world use the app daily to top-up their family members, friends, and even themselves",
+				"image": ""
+			},
+			{
+				"parallax": {
+					"offset": 400,
+					"speedX": 0,
+					"speedY": 0.1
+				},
+				"title": "",
+				"description": "",
+				"image": "enviominutos_small.jpg"
+			}
+		]
+	},
+	{
+		"order": 3,
+		"title": "Portofolio",
+		"thumbnail": "astro_design.png",
+		"picture": "astro_design.png",
+		"category": "design",
+		"accent_color": "#000",
+		"technologies": ["Xamarin", "REST", "C#"],
+		"platforms": ["Android", "iOS"],
+		"roles": [
+			"Programming",
+			"Logo/Identity Design",
+			"IU UX Design",
+			"Interaction Design"
+		],
+		"deliverables": ["Mobile App", "Logo", "Design", ""],
+		"description": "Send Mobile Top-ups to friends and family in over 100 countries.",
+		"source_link": "",
+		"live_link": "",
+		"time_taken": "2019-2020",
+		"sections": [
+			{
+				"parallax": {
+					"offset": 0,
+					"speedX": 0,
+					"speedY": 0.1
+				},
+				"title": "Mobile Top-ups Worldwide",
+				"description": "Spotify is the #1 music service in the world with over 220 million subscribers. That consumer success, however, needed to be matched with powerful storytelling to become equally compelling to the advertising world. We worked with Spotify to create an interactive experience to demonstrate how music interacts with a day in the life of a millenial listener.",
+				"image": ""
+			},
+			{
+				"parallax": {
+					"offset": 700,
+					"speedX": 0,
+					"speedY": 0.15
+				},
+				"title": "",
+				"description": "",
+				"image": "astro_design.png"
+			},
+			{
+				"parallax": {
+					"offset": 0,
+					"speedX": 0,
+					"speedY": 0.1
+				},
+				"title": "Visual Language",
+				"description": "We studied Spotify’s brand guidelines and worked with their existing palette to create an experience that both respects guidelines and pushes creative boundaries. We used gradients that evolved from core Spotify brand colors as well as decorative graphical elements that mirror the exuberance and vibrancy in millennials’ lifestyles.",
+				"image": ""
+			},
+			{
+				"parallax": {
+					"offset": 0,
+					"speedX": 0,
+					"speedY": 0.1
+				},
+				"title": "Successful Launch",
+				"description": "The app was released near the end of 2020. It is currently available for download in both the App Store and Google Play. People all over the world use the app daily to top-up their family members, friends, and even themselves",
+				"image": ""
+			},
+			{
+				"parallax": {
+					"offset": 400,
+					"speedX": 0,
+					"speedY": 0.1
+				},
+				"title": "",
+				"description": "",
 				"image": "enviominutos_small.jpg"
 			}
 		]
